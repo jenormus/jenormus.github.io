@@ -4,18 +4,19 @@
   font-family: sans-serif;
 }
 
-body{
+body {
   height: 100%;
 }
-//headers
-.menu-btn{
+
+/* headers */
+.menu-btn {
   color: #424144;
   font-size: 23px;
   cursor: pointer;
   display: none;
 }
 
-.navbar{
+.navbar {
   padding: 20px 5%;
   display: flex;
   justify-content: space-between;
@@ -23,22 +24,20 @@ body{
   position: sticky;
   z-index: 999;
   background-color: #f3f4f6;
-  box-shadow: 0 0 14px rgba(0,0,0,0.3);
-  
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
 }
 
-.navbar .logo h1{
+.navbar .logo h1 {
   color: #424144;
-  border-bottom: 4px solid fd6561;
-  
+  border-bottom: 4px solid #fd6561;
 }
 
-.navbar .menu li{
+.navbar .menu li {
   list-style: none;
   display: inline-block;
 }
 
-.navbar .menu li a{
+.navbar .menu li a {
   display: block;
   margin-left: 20px;
   color: #424144;
@@ -52,7 +51,7 @@ body{
   border-bottom: 4px solid #f63e4e;
 }
 
-.navbar .menu li a i{
+.navbar .menu li a i {
   color: #f63e4e;
 }
 
@@ -60,8 +59,8 @@ body{
   border-bottom: 4px solid #f63e4e;
 }
 
-.content{
-  background-image: url(shopping.jpeg)
+.content {
+  background-image: url(shopping.jpeg); /* Ajout du point-virgule manquant */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 5px;
@@ -70,27 +69,26 @@ body{
   align-items: flex-start;
   color: #424144;
   height: 100vh;
-  
 }
-.content h1{
+
+.content h1 {
   font-size: 40px;
-  justify-content: center;
+  justify-content: center; /* Cela n'est nécessaire ici, car c'est une propriété de conteneur de flexbox */
   margin: 10px;
 }
 
-.content p{
+.content p {
   margin: 10px;
-  justify-content: center;
   font-size: 20px;
   margin-top: 20px;
 }
 
-.content button{
+.content button {
   margin-top: 30px;
   padding: 15px 30px;
   border: none;
   background: #f63e4e;
-  color: #white;
+  color: #fff; /* Correction de la couleur du texte */
   font-size: 20px;
   border-radius: 5px;
   cursor: pointer;
