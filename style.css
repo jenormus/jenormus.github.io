@@ -70,4 +70,26 @@ body{
   justify-content: center;
   align-items: flex-start;
   color: #424144;
+  height: 100vh;
+  
 }
+.content h1{
+  font-size: 40px;
+}
+
+.content p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.content button{
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  background: #f63e4e;
+  color: #white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
