@@ -60,12 +60,13 @@ body {
 }
 
 .content {
-  background-image: url(shopping.jpeg); /* Ajout du point-virgule manquant */
+  background-image: url(shopping.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Modifier la direction en ligne */
+  justify-content: space-between; /* Ajouter cette propriété */
   align-items: flex-start;
   color: #424144;
   height: 100vh;
@@ -73,7 +74,6 @@ body {
 
 .content h1 {
   font-size: 40px;
-  justify-content: center; /* Cela n'est nécessaire ici, car c'est une propriété de conteneur de flexbox */
   margin: 10px;
 }
 
@@ -88,9 +88,10 @@ body {
   padding: 15px 30px;
   border: none;
   background: #f63e4e;
-  color: #fff; /* Correction de la couleur du texte */
+  color: #fff;
   font-size: 20px;
   border-radius: 5px;
   cursor: pointer;
 }
+
 
