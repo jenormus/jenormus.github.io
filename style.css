@@ -59,25 +59,23 @@ body {
   border-bottom: 4px solid #f63e4e;
 }
 .content {
-  background-image: url();
+  background-image: url(https://thumbs.dreamstime.com/b/femme-d-achats-12360755.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 5px;
   display: flex;
-  flex-direction: row; /* Modifier la direction en ligne */
-  justify-content: space-between; /* Ajouter cette propriété */
+  flex-direction: column; /* Modifier la direction en ligne */
+  justify-content: center; /* Ajouter cette propriété */
   align-items: flex-start;
   color: #424144;
-  height: 100vh;
+  height: 70vh;
 }
 
 .content h1 {
   font-size: 40px;
-  margin: 10px;
 }
 
 .content p {
-  margin: 10px;
   font-size: 20px;
   margin-top: 20px;
 }
