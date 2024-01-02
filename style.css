@@ -1,95 +1,53 @@
-/* Reset de certaines valeurs par défaut pour une meilleure cohérence entre les navigateurs */
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Style de base pour les liens */
-a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Style spécifique pour la barre de navigation */
-nav ul {
-    background-color: #444;
-    padding: 10px 0;
-}
-
-nav a {
-    color: #fff;
-    padding: 5px 10px;
-}
-
-nav a:hover {
-    background-color: #555;
-}
-
-/* Style pour les articles du blog */
-article {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-
-/* Style pour la section de contact */
-#contact {
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-}
-
-/* Style pour le formulaire de contact */
-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-/* Style pour le pied de page */
-footer {
-    margin-top: 20px;
+  width: 100%;
 }
