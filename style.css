@@ -59,3 +59,15 @@ body{
 .navbar .menu li a:hover {
   border-bottom: 4px solid #f63e4e;
 }
+
+.content{
+  background-image: url(shopping.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 5px;
+  display: flex;
+  flux-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #424144;
+}
