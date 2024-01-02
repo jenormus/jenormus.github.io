@@ -58,7 +58,6 @@ body {
 .navbar .menu li a:hover {
   border-bottom: 4px solid #f63e4e;
 }
-
 .content {
   background-image: url(shopping.jpeg);
   background-size: cover;
@@ -93,5 +92,6 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
 
 
