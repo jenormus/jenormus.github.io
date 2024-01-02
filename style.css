@@ -59,7 +59,7 @@ body {
   border-bottom: 4px solid #f63e4e;
 }
 .content {
-  background-image: url(shopping.webp);
+  background-image: url();
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 5px;
