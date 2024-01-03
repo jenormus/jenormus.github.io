@@ -99,12 +99,12 @@ body {
 }
 
 .sec{
-  padding: 10px 5px
+  padding: 10px 5px;
 }
 
 .products{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(320px,1fr))
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
 }
 .product .card{
   width: 310px;
