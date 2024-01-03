@@ -59,14 +59,15 @@ body {
 .navbar .menu li a:hover {
   border-bottom: 4px solid #f63e4e;
 }
+
 .content {
   background-image: url(https://thumbs.dreamstime.com/b/femme-d-achats-12360755.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 5px;
   display: flex;
-  flex-direction: column; /* Modifier la direction en ligne */
-  justify-content: center; /* Ajouter cette propriété */
+  flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   color: #424144;
   height: 70vh;
@@ -92,61 +93,61 @@ body {
   cursor: pointer;
 }
 
-.pheading{
+.pheading {
   text-align: center;
   margin: 50px 0;
   color: #424144;
 }
 
-.sec{
+.sec {
   padding: 10px 5px;
 }
 
-.product{
+.product {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
-.product .card{
+
+.product .card {
   width: 310px;
   background: #f5f5f5;
-  box-shadow : 0 10px 20px rgba(0,0,0,0.3)
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 20px;
 }
 
-.product .card img{
+.product .card img {
   height: 250px;
   width: 100%;
 }
 
-.product .card .desc{
+.product .card .desc {
   padding: 5px 20px;
-  opacity: 0,8;
+  opacity: 0.8; /* Correction de la virgule */
 }
 
-.product .card .title{
+.product .card .title {
   font-weight: 900;
   font-size: 20px;
   color: #424144;
   padding: 0 20px;
-
 }
 
-.product .card .box{
+.product .card .box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
 
-.product .card .box .price{
+.product .card .box .price {
   color: #f63e4e;
   font-size: 20px;
   font-weight: bold;
 }
 
-.product .card .box .btn{
+.product .card .box .btn {
   font-size: 13px;
   color: #f63e4e;
   padding: 10px 18px;
@@ -155,36 +156,24 @@ body {
   border-radius: 20px;
 }
 
-.product .card .box .btn:hover{
+.product .card .box .btn:hover {
   cursor: pointer;
   background-color: #f63e4e;
   color: white;
 }
 
-footer{
+footer {
   background-color: #f3f4f6;
   height: 10vh;
 }
 
-footer p{
+footer p {
   text-align: center;
   line-height: 10vh;
 }
 
-footer p a{
+footer p a {
   text-decoration: none;
   color: #f63e4e;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
