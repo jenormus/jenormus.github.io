@@ -175,7 +175,7 @@ footer p {
   line-height: 10vh;
 }
 
-footer p a {
+footer p a ,footer p a a{
   text-decoration: none;
   color: #f63e4e;
   font-weight: bold;
