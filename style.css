@@ -101,9 +101,6 @@ body {
 
 .sec {
   padding: 10px 5px;
-}
-
-.product {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
