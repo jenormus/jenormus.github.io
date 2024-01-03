@@ -145,6 +145,22 @@
           $(".menu-btn i").toggleClass("active);
         });
     </script>
+    <!-- ... Votre code HTML existant ... -->
+
+<script>
+    $(document).ready(function () {
+        // Sélectionnez tous les boutons d'achat
+        $(".btn").click(function () {
+            // Obtenez le titre et le prix du produit
+            var title = $(this).closest(".card").find(".title").text();
+            var price = $(this).closest(".card").find(".price").text();
+
+            // Affichez un message (vous pouvez le personnaliser ou le rediriger vers une page de paiement)
+            alert("Vous avez acheté : " + title + " pour " + price);
+        });
+    });
+</script>
+
 </body>
 
 </html>
