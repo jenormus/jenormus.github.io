@@ -71,6 +71,8 @@ body {
   align-items: flex-start;
   color: #424144;
   height: 70vh;
+  align-items: center;
+  text-align: center;
 }
 
 .content h1 {
